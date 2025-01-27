@@ -59,7 +59,6 @@ public class Licuadora implements ILicuadora{
         else{
             return this.velocidad; 
         }
-
     }
 
     @Override
