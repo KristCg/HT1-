@@ -93,7 +93,6 @@ public class Licuadora implements ILicuadora{
 
     @Override
     public int consultarVelocidad() {
-        // TODO Auto-generated method stub
-        throw new UnsupportedOperationException("Unimplemented method 'consultarVelocidad'");
+        return this.velocidad;
     }
 }
