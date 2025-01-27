@@ -1,4 +1,4 @@
-package ht1;
+package recursos;
 
 import static org.junit.Assert.assertTrue;
 

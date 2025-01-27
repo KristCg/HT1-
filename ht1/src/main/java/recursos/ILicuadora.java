@@ -1,6 +1,6 @@
-package ht1;
+package recursos;
 
-public interface ILicuadora {
+public interface ILicuadora{
     void encender();
     void apagar();
     double llenar(double volumen);

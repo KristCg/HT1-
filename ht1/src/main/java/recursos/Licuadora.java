@@ -1,18 +1,26 @@
-package ht1;
+package recursos;
 
 public class Licuadora implements ILicuadora{
     private int velocidad;
     private boolean estado;
     private double capacidadMax;
     private double cantidadActual;
-    
 
     public Licuadora(int velocidad, double capacidadMax) {
         this.velocidad = velocidad;
         this.estado = false;
         this.capacidadMax = capacidadMax;
         this.cantidadActual = 0;
-    }     
+    }
+    
+    public boolean isEstado() {
+        return estado;
+    }
+
+    public void setEstado(boolean estado) {
+        this.estado = estado;
+    }
+
 
     @Override
     public void encender() {
